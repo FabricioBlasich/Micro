@@ -8,7 +8,7 @@
 
     .section .data              // Define la sección de variables (RAM) 
 origen: .byte 1, 2, 3, 4, 5, 6, 7, 8, 9, 0xFF
-destino: .space 2, 0x00
+destino: .space 8, 0x00
 
 /****************************************************************************/
 /* Programa principal                                                       */
